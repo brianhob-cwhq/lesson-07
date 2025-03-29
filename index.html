@@ -29,7 +29,7 @@
             <p><button id="jacaranda">Jacaranda</button></p>
             <p><button id="cherry">Cherry Blossom</button></p>
             <p><button id="birch">Birch</button></p>
-
+            <p><button id="dogwood">Dogwood</button></p>
         </div>
         <div class="content">
             <iframe id="i_content" src="oak_content.html"
@@ -77,6 +77,10 @@
         $("#birch").click(function(){
             $("#i_content").attr("src","birch_content.html");
             $("#i_summary").attr("src","birch_summary.html");
+        })
+        $("#dogwood").click(function(){
+            $("#i_content").attr("src","dogwood_content.html");
+            $("#i_summary").attr("src","dogwood_summary.html");
         })
 
         /* This will not be merged !  */
